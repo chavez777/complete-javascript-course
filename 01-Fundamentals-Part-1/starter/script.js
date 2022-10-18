@@ -76,21 +76,31 @@
 //     console.log("no");
 // }
 
-const age = 18;
-if (age === 18) {
-    console.log('you hit 18');
-}
+// const age = 18;
+// if (age === 18) {
+//     console.log('you hit 18');
+// }
 
-const favorite = Number(prompt("what is your favor number"));
-console.log(favorite);
-console.log(typeof favorite);
-if (favorite === 23) {
-    console.log(`${favorite} is a amazing number`)
-} else if (favorite === 7) {
-    console.log(`${favorite} is a also amazing number`)
-} else {
-    console.log(`${favorite} is not 23 or 7`)
-}
-if (favorite !== 23) {
-    console.log(`why not ${favorite} `)
-}
+// const favorite = Number(prompt("what is your favor number"));
+// console.log(favorite);
+// console.log(typeof favorite);
+// if (favorite === 23) {
+//     console.log(`${favorite} is a amazing number`)
+// } else if (favorite === 7) {
+//     console.log(`${favorite} is a also amazing number`)
+// } else {
+//     console.log(`${favorite} is not 23 or 7`)
+// }
+// if (favorite !== 23) {
+//     console.log(`why not ${favorite} `)
+// }
+
+// const hasDriverLicense = true;
+// const hasGoodVision = true;
+// console.log(hasDriverLicense && hasGoodVision);
+// const age = 23;
+// console.log(`${age > 18 ? 'i like wine' : 'i like water'}`)
+
+const bills = 430;
+let tip = (((bills >= 50) && (bills <= 300)) ? 0.15 : 0.2) * bills;
+console.log(`The bill was ${bills} the tip was ${tip}, and the total value is ${bills + tip}`);
